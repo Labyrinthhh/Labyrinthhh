@@ -1,0 +1,215 @@
+body {
+    background-color: rgb(185, 185, 184);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    width: 100%;
+    height: 48px;
+    background-color: cornflowerblue;
+}
+.judul{
+    width: 20%;
+    height: auto;
+    margin-top: 5px;
+    position: absolute;
+    left: 2%;
+}
+.judul p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
+    pointer-events: none;
+}
+.icon-search{
+    margin-top: 10px;
+    width: 32%;
+    height: 38px;
+    right: 2%;
+    position: absolute;
+    z-index: 1;
+}
+.icon-search img {
+    float: right;
+    width: 28px;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+.icon-search input {
+    width: 300px;
+    margin-left: 120px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+}
+.icon-search .icon {
+    width: 30px;
+    position: absolute;
+    top: 11%;
+    left: 22%;
+}
+.icon-search .icon img {
+    width: 22px;
+}
+.cntr{
+    position: absolute;
+    top: 15%;
+    right: 35%;
+    width: 30%;
+    height: 70%;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    box-shadow: 4px 4px rgb(0 0 0 / 0.3);
+}
+.cntr p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+.cntr form{
+    padding: 0 40px;
+    box-sizing: border-box;
+    
+}
+
+form .texts {
+    position: relative;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: 30px 0;
+}
+
+.texts input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.texts label{
+    position: absolute;
+    font-family: 'Gill Sans MT';
+    top: 50%;
+    left: 5px;
+    color: rgb(0, 0, 0);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .3s;
+}
+ .texts input:focus ~ label,
+ .texts input:valid ~ label{
+     top: 3px;
+     color: rgb(0, 0, 0);
+
+ }
+
+ input[type="submit"]{
+     width: 40%;
+     height: 25px;
+     background: rgb(35, 130, 240);
+     color: white;
+     border-radius: 28px;
+     border: none;
+     margin-top: 20px;
+     font-size: 16px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-left: 7rem;
+ }
+ input[type="submit"]:hover {
+    transition: 0.2s;
+    background-color: rgb(60, 175, 60);
+}
+.forgetpass {
+    margin-top: 10px;
+    left: 29.5%;
+    position: absolute;
+}
+.forgetpass a {
+    font-size: 12px;
+    text-decoration: none;
+}
+.forgetpass a:hover{
+    text-decoration: underline;
+}
+.signup{
+    padding-top: 20px;
+}
+
+ .signup p {
+     font-size: 15px;
+     color: rgb(0, 0, 0);
+     letter-spacing: 1px;
+ }
+ .signup-2  {
+     top: 63%;
+     right: 29%;
+     position: absolute;
+ }
+ .signup-2 a {
+     text-decoration: none;
+     color: blue;
+     font-weight: 500;
+ }
+ .loginwth {
+     position: absolute;
+     width: 100%;
+     height: 50%;
+     top: 62%;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-top: 2px solid rgb(151, 151, 151);
+ }
+ .logos {
+     width: 110px;
+     position: absolute;
+     top: 10%;
+     left: 38%;
+
+ }
+ .logos img {
+     width: 24px;
+     margin: 5px;
+ }
+ .or{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     background-color: white;
+     position: absolute;
+     left: 46%;
+     top: 59%;
+     letter-spacing: 1px;
+     padding: 5px;
+ }
+ .signup {
+    background: rgb(60, 175, 60);
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    width: 40%;
+    height: 5px;
+    border-radius: 20px;
+ }
+ .signup:hover{
+    background: rgb(35, 130, 240);
+    transition: 0.3s;
+ }
+ .signup a {
+     text-decoration: none;
+     font-size: 16px;
+     color: white;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     position: absolute;
+     top: 10%;
+     left: 35%;
+ }

@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(185, 185, 184);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    width: 100%;
+    height: 48px;
+    background-color: cornflowerblue;
+}
+.judul{
+    width: 20%;
+    height: auto;
+    margin-top: 5px;
+    position: absolute;
+    left: 2%;
+    pointer-events: none;
+}
+.judul p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
+}
+.icon-search{
+    margin-top: 10px;
+    width: 32%;
+    height: 38px;
+    right: 2%;
+    position: absolute;
+}
+.icon-search img {
+    float: right;
+    width: 28px;
+    margin-top: 2px;
+    margin-right: 8px;
+}
+.icon-search input {
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+.icon-search .icon {
+    width: 20px;
+    position: absolute;
+    top: 12%;
+    left: 7%;
+}
+.icon-search .icon img {
+    width: 22px;
+}
+.icon-search .list {
+    position: absolute;
+    right: 10%;
+    top: 22%;
+}
+.icon-search .list a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icon-search .list a:hover{
+    text-decoration: underline;
+}
+.gmbar{
+    position: absolute;
+    width: 220px;
+    height: 309px;
+    border-radius: 12px;
+    overflow: hidden;
+    top: 10%;
+    left: 2%;
+    border: 2px solid rgb(0, 0, 0);
+}
+.title-anime {
+   position: absolute;
+   top: 55%;
+   left: 6%;
+}
+.title-anime p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sinopsis {
+    width: 1080px;
+    height: 310px;
+    background-color: rgb(241, 237, 237);
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    border-radius: 10px;
+}
+.sinopsis-top {
+    width: 400px;
+    margin-left: 5px;
+    border-bottom: 2px solid black;
+}
+.sinopsis .sinopsis-top p {
+     font-size: 18px;
+     margin-top: 10px;
+     margin-left: 10px;
+     padding-bottom: 5px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sinopsis p {
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info{
+    position: absolute;
+    background-color: rgb(241, 237, 237);
+    width: 350px;
+    height: auto;
+    left: 20%;
+    top: 55%;
+}
+.info table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    margin: 10px;
+}
+.info table td {
+    width: 180px;
+    padding: 4px;
+}
+.stats{
+    position: absolute;
+    background-color: rgb(241, 237, 237);
+    width: 350px;
+    height: auto;
+    left: 44%;
+    top: 55%;
+}
+.stats table{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    margin: 10px;
+}
+.stats table td {
+    width: 180px;
+    padding: 4px;
+}
+.trailer iframe {
+    width: 350px;
+    height: 195px;
+    position: absolute;
+    top: 55%;
+    left: 68%;
+}
